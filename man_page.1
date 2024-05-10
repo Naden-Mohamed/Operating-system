@@ -1,13 +1,110 @@
-NAME
-     DOS SHELL SIMULATION
-     Task 4
-      
-DESCRIPTION
-     This program simulate a shell that accepts DOS commands 
-     and execute thier corresponding Linux commands.
-     
-     for example:
-     if the user write "dir" in the terminal, the program 
-     will execute "ls" linux command.
-     
+.\" Man page for DOS Shell Simulation
+.\" Copyright (C) Year Os Project
+.\" This file is part of DOS Shell Simulation.
+.\"
+.\" This program is free software: you can redistribute it and/or modify
+.\" it under the terms of the GNU General Public License as published by
+.\" the Free Software Foundation, either version 3 of the License, or
+.\" (at your option) any later version.
+.\"
+.\" This program is distributed in the hope that it will be useful,
+.\" but WITHOUT ANY WARRANTY; without even the implied warranty of
+.\" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+.\" GNU General Public License for more details.
+.\"
+.\" You should have received a copy of the GNU General Public License
+.\" along with this program.  If not, see <http://www.gnu.org/licenses/>.
+.\"
+.TH DOS_SHELL_SIMULATOR 1 "May 2024" "Version 1.0" "DOS Shell Simulation Manual"
 
+.SH NAME
+dos_shell_simulator \- DOS shell simulation program
+
+.SH SYNOPSIS
+.B dos_shell_simulator
+
+.SH DESCRIPTION
+This program simulates a shell that accepts DOS commands and executes their corresponding Linux commands.
+
+For example, the following DOS commands are supported with their Linux equivalents:
+
+.TP
+.B copy
+Equivalent Linux command: cp
+
+.TP
+.B dir
+Equivalent Linux command: ls
+
+.TP
+.B move
+Equivalent Linux command: mv
+
+.TP
+.B cls
+Equivalent Linux command: clear
+
+.TP
+.B date
+Equivalent Linux command: date
+
+.TP
+.B del
+Equivalent Linux command: rm
+
+.TP
+.B echo
+Equivalent Linux command: echo
+
+.TP
+.B edit
+Equivalent Linux command: pico
+
+.TP
+.B fc
+Equivalent Linux command: diff
+
+.TP
+.B find
+Equivalent Linux command: grep
+
+.TP
+.B /?
+Equivalent Linux command: man
+
+.TP
+.B mkdir
+Equivalent Linux command: mkdir
+
+.TP
+.B more
+Equivalent Linux command: less
+
+.TP
+.B ren
+Equivalent Linux command: mv
+
+.TP
+.B chdir
+Equivalent Linux command: pwd
+
+.TP
+.B cd
+Equivalent Linux command: cd
+
+.TP
+.B time
+Equivalent Linux command: date
+
+.TP
+.B mem
+Equivalent Linux command: free
+
+.SH SEE ALSO
+.BR man (1)
+
+.SH AUTHOR
+Written by Your Name.
+
+.SH COPYRIGHT
+Copyright \(co Os Project.
