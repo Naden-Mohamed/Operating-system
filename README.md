@@ -16,7 +16,7 @@ You have to implement the manual page for your task, so for example if the
 task name is task3, when the user types “man task3” in the terminal, the 
 manual page for your task should appear.
 
-*operating System Project*
+*Operating System Project*
  Priority (Preemptive)
  
  General Instructions
