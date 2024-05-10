@@ -5,7 +5,7 @@ Example: when user writes “dir”, the shell runs “ls” command. Note: you
 have to use external text file for mapping between Linux and DOS 
 commands.
 
-Required for the task
+Required for the task: 
 • Menu Interface
 The task has to provide a menu interface to let the user picks the option he
 wants.
@@ -19,7 +19,7 @@ manual page for your task should appear.
 *Operating System Project*
  Priority (Preemptive)
  
- General Instructions
+ General Instructions:
 • You will implement one of the following scheduling algorithms (just 
 simulation) with any programming language.
 • GUI is a must and has a big part of the score (Gantt Chart must be 
